@@ -63,6 +63,23 @@
 
     /* de esta manera directamente tenemos el valor directamente declarado e inicializado en la variable y no tenemos que hacer algun paso de mas. */
 
+// Declarables variables de cadena
+
+    /* las variable una variable de cadena se utiliza un string como valor, lo que hacemos es darle par ejemplo "hola como estas" la que pasa en este caso es que "hola cama estas" es el valor de nuestra variable*/
+
+    var Saludo = "Hola como estas";
+
+// Comprender las variables no inicializadas
+
+    /* en este caso tenemos que saber que cuando declaramos variables en js y no le colocamos ningun valor o no las inicialezamos, estas contienen  un valor inicial llamado UNDEFINED */
+
+    var nada;// <- el valor de esta variable sin inicializar en este momento es undefined.
+
+// Buenas practicas de escritura es js 
+
+    /* En este caso para escribir de una buena manera en js tenemos que usar lo que se le llama "camelCase". Esto es cuando tenemos dos palabras por ejemplo "hola pedro" y queremos hacer una variable para esto, Para escribir con camelCase lo que se hace es escribir la primer palabra en minuscula y luego cada palabra nueva comenzarla can la letra inicial en mayuscula, en este caso seria "holaPedro", si queremos seguir alargando los nombres tenemos que seguir esta regla aunque por una cuestion de practicidad no se recomienda hacer nombres tan grandes de las variables. */
+
+
 
 
 
