@@ -79,6 +79,105 @@
 
     /* En este caso para escribir de una buena manera en js tenemos que usar lo que se le llama "camelCase". Esto es cuando tenemos dos palabras por ejemplo "hola pedro" y queremos hacer una variable para esto, Para escribir con camelCase lo que se hace es escribir la primer palabra en minuscula y luego cada palabra nueva comenzarla can la letra inicial en mayuscula, en este caso seria "holaPedro", si queremos seguir alargando los nombres tenemos que seguir esta regla aunque por una cuestion de practicidad no se recomienda hacer nombres tan grandes de las variables. */
 
+// diferencias entre var y let 
+
+ var /* Cuando declaramos 2 variable con var, que contiene el mismo nombre y le colocamos dististo contenido, estas se anulan y nos muestra en consola unicamente el nombre de la ultima variable definida,esto es malo porque en la practica esto no se muestra como un error y se va a hacer muy dificil el porque no funciona el codigo que hicimos */
+
+ var hola= tutu;
+ var hola= nariznariz; // <- En este ejemplo aunque nosotros queramos utilizar la primera variable no se puede, ya que la opcion var las anula, pero no las muestra como un error de codigo
+
+
+
+ let /* Visto lo que sucede con var js se actualizo y ahora contiene el elemento "let" para declarar variables, y lo que hace es siempre y cuando existan variables iguales, osea con el mismo nombre nos muestra un error */
+
+ let hola1= tutu;
+ let hola2= nariznariz; 
+
+ /* De esta manera se ve y es mas practico para trabajar, con variables de distinto nombre para tener el la estuctura ordenada y que se minimicen lo errores */
+
+ const /* Este tipo de variable cuenta con las mismas caracteristicas que let, pero se le agrega el poder de que las variables que lo contengan son solo de lectura, esto quiere decir que la variable definida con const no puede ser redefinida en con otro resultado en otro momento, siembre tiene el mismo valor definido
+ */
+
+// agregar numeros a js
+
+Number /* Este es un tipo de dato que tenemos en js, que como su nombre lo indica es para colocar numeros */
+
+  //sumar 
+
+  + //<- para sumar se utiliza este simbolo como operador de suma cuando lo colocamos etre dos numeros.
+
+   // ejemplo:
+  
+    let suma= 10 + 2;
+
+ // restar 
+ 
+  // de la misma manera que vimos como sumar se hace para restar, pero se utiliza solamente con el operador de la resta (-)
+
+  let resta= 10 - 2;
+
+  // Multiplicar 
+
+    // de la misma manera que sumamos o restamos lo que hacemos es utilizar el operador (*) para multiplicar 
+
+    let multiplicacion= 10*2;
+
+  //dividir 
+
+  // con el simbolo / se divide
+
+  let dividir= 12 / 3;
+
+  //sumar 1
+
+   /* Si queremos sumar 1 a la variable, en vez de tener que hacer var + 1, lo que se utiliza es el operador (++) esto cumple la funcion de sumar o agregar 1 */
+
+   // ejemplo
+
+        let suma1= 23;
+
+        suma1 ++ // <- de esta manera la variable de arriba pasa a valer 24
+
+   // restar 1 
+   
+   /*  de la misma manera que el anterior, pero en este caso se utiliza el operador (--) */
+
+   let resta1= 23;
+
+   resta1 -- // <- esto lo que hace es que la variable pase a valer 22, de esta manera se le resta facilmente 1 a cualquier variable.
+
+// numeros decimales
+
+    /* Estos se pueden utilizar para dar valor a las variables,estos se pueden multiplicar, dividir, sumar, etc*/
+
+// Resto 
+
+/* Este nos da como resultado el resto de la division se utiliza el operador (%) */
+
+// ejemplo
+
+    5 % 2 = 1 // porque
+    Math.floor(5 / 2) = 2 // (Cociente)
+    2 * 2 = 4
+    5 - 4 = 1 // (Resto)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
