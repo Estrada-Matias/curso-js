@@ -161,6 +161,66 @@ Number /* Este es un tipo de dato que tenemos en js, que como su nombre lo indic
     2 * 2 = 4
     5 - 4 = 1 // (Resto)
 
+// asignacion compuesta con suma aumentada 
+
+// Es muy comun que cuando queramos cambiar el valor de una variable lo que hacemos es:
+
+ let myVar = 10;
+
+ myVar = myVar + 5;
+
+/* para que esto se haga de una manera mas rapida y sin tanto codigo se utiliza el operador (+=) */
+
+let myVar = 10;
+
+myVar += 5;
+
+/* de esta manera sucederia lo mismo que en el ejeplo anterior y nos ahorrariamos tener que aumentar el codiga cada vez que nos toque escribir o cambiar el valor de un a variable */
+
+//Asignacion compuesta con resta aumentada
+
+/* de la misma manera que sumamos en el anterior ejemplo, pero se utiliza el operador -= */
+
+let myVar = 10;
+
+myVar -= 5;
+
+// Asignacion compuesta con multiplicacion aumentada
+
+/* de la misma manera que las anteriores pero el la multiplicacion (*=) */
+
+let myVar = 10;
+
+myVar *= 5;
+
+// Asignacion compuesta con division aumentada
+
+// (/=)
+
+let myVar = 10;
+
+myVar *= 5;
+
+// Comillas para no finalizar cadenas 
+
+/* para que cuando necesitemos colocar comillas en el algun momento de la cadena pero no queremos que js piense que ahi termina la cadena y que contenga lo demas que agregamos */
+
+const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+
+/* Lo que tenemos que hacer es colocar (\) antes de colocar las comillas que no queremos que detecte como el final de la cadena */
+
+// 
+
+  Código	Producción
+    \'	     una frase
+    \"	     comillas dobles
+    \\	     barra invertida
+    \n	     nueva línea
+    \t	     pestaña
+    \r	     retorno de carro
+    \b	     límite de palabras
+    \f	     alimentación de formulario
+
 
 
 
